@@ -29,4 +29,5 @@ jobs:
           SENDTYPE: ${{secrets.SENDTYPE}}
         run: |
           chmod +x ./revive.sh
+          chmod +x ./keepalive.sh tgsend.sh
           ./revive.sh
